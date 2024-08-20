@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree, sans-serif;
+}
+body{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(47, 88%, 63%);
+}
+.boxcard{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 1000px;
+    background-color: white;
+    border-radius: 15px;
+    border-style:solid;
+    border-width: 1px;
+    padding: 20px;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0) ;
+}
+.boxcard .art-image{
+    position: relative;
+    height: 180px;
+    border-radius: 10px;
+}
+.boxcard .button1 button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    border: none;
+}
+.boxcard .date{
+    font-weight: 500;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+.boxcard .title{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.boxcard .text{
+    font-weight: 500 lighter;
+    color: hsl(0, 0%, 50%);
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+.boxcard .profile-image{
+    position: relative;
+    height: 30px;
+}
+.boxcard .image2 .name{
+    font-weight: bolder;
+    font-size: 90%;
+    margin-left: 40px;
+    margin-top: -28px;
+}
